@@ -42,7 +42,9 @@
     "rememberMeKey": "8eb6b201dd09762bc96cbe38732b4ec1c2c2e44562ba5497500177cfcabd5a51b14f40058821020f6c34b28aa95e7ba283bd",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Food", "Meal"],
+    "lastLiquibaseTimestamp": 1617193470000
   },
   "git-provider": "GitHub",
   "git-company": "lukasze",
