@@ -1,0 +1,43 @@
+{
+  "name": "Food",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "calories",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "proteins",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "carbs",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fats",
+      "fieldType": "Float"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "meal",
+      "otherEntityRelationshipName": "food",
+      "relationshipName": "meal"
+    }
+  ],
+  "entityTableName": "food",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210331122429"
+}
